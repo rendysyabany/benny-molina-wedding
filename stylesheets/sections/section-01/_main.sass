@@ -1,0 +1,63 @@
+.container
+    #hero
+        .content
+            width: calc(100% - 64px)
+            height: calc(100vh - 64px)
+            // @include filterContrast(.8, 2, .5, 1);
+            @extend %bg-image-02
+            background-color: #fff
+            border: 2rem solid #fff
+
+            .title
+                color: #fff
+
+                #text-01
+                    position: absolute
+                    font-family: dirtybitch, sans-serif
+                    font-size: 1.5em
+                    bottom: 130px
+                    padding: 0 0 0 200px
+
+                .names
+                    position: fixed
+                    // margin: 250px 0 0 20%
+                    top: 45%
+                    left: 50%
+                    transform: translate(-50%, -50%)
+
+                    #text-02, #text-03
+                        font-family: dirtybitch, sans-serif
+                        font-size: 3em
+    
+                    #text-02
+
+                    #text-03
+                        margin: -30px 0 0 0
+                        padding: 0 0 0 60px
+
+                    #img-art-01
+                        position: fixed
+                        width: 350px
+                        height: auto
+                        max-width: 350px
+                        margin: -30px 0 0 -80px
+                        opacity: .7
+
+            .scroll-down
+                width: 120px
+                height: 120px
+                background-color: #fff
+                z-index: 1
+                position: absolute
+                right: 0
+                bottom: 0
+                border-radius: 50% 0 0 0
+                display: table
+                
+                p
+                    display: table-cell
+                    text-align: center
+                    vertical-align: middle
+                    font-family: monospace
+                    letter-spacing: 2px
+
